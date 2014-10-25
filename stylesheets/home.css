@@ -88,9 +88,9 @@ p {
 	width: 96px;
 	height: 96px;
 	margin: 0 auto 12px;
-	background-image: url('../images/rooms-app-icon-1024.png');
+	background-image: url('https://pbs.twimg.com/profile_images/521828928462143488/gsiw6Xl6.jpeg');
 	background-size: cover;
-	border-radius: 24px;
+	border-radius: 100px;
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset;
 }
 
@@ -140,7 +140,7 @@ p.description {
 /* street screen */
 
 #street {
-	background-color: #5fceea;;
+	background-color: #FE8019;;
 	position: relative;
 	padding-top: 20px;
 }
@@ -169,87 +169,14 @@ p.description {
 	-moz-animation-iteration-count: infinite;
 }
 
-.card,
-.cardContent {
-	height: 340px;
-	width: 192px;
-}
-
-.card {
-	background-color: white;
-	border-radius: 0px;
-	display: inline-block;
-	margin: 0 5px;
-	float: left;
-	overflow: hidden;
-	background-size: 192px 340px;
-	background-position: center;
-	background-repeat: no-repeat;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-}
-
-.cardContent {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	color: #fff;
-}
-
-.memberCount {
-	font-size: 12px;
-	font-weight: 700;
-}
-
-.card1 {
-	background-image: url('../images/card-sneakers.jpg');
-	background-color: transparent;
-}
-
-.card1 .cardContent {
-	background-color: rgba(55, 95, 226, .7);
-}
-
-.card2 {
-	background-image: url('../images/card-pug.jpg');
-	background-color: transparent;
-}
-
-.card2 .cardContent {
-	background-color: rgba(102, 42, 234, .7);
-}
-
-.card3 {
-	background-image: url('../images/card-makeup.jpg');
-	background-color: transparent;
-}
-
-.card3 .cardContent {
-	background-color: rgba(215, 64, 66, .7);
-}
-
-.card4 {
-	background-image: url('../images/card-bikes.jpg');
-	background-color: transparent;
-}
-
-.card4 .cardContent {
-	background-color: rgba(248, 183, 0, .7);
-}
-
-.card5 {
-	background-image: url('../images/card-green.jpg');
-	background-color: transparent;
-}
-
-.card5 .cardContent {
-	background-color: rgba(47, 201, 108, .7);
+.section h2 {
+	font-size: 24px;
 }
 	
 /* customize screen */
 	
 #customize {
-	background-color: #1840b2;
+	background-color: #009CDC;
 }
 
 #screens,
@@ -533,7 +460,7 @@ p.description {
 /* Nickname Screen */
 
 #nickname {
-	background-color: #ff4f4f;
+	background-color: #000;
 }
 
 #nameWrap {
@@ -551,91 +478,9 @@ p.description {
 	height: 504px;
 }
 
-.dialog {
-	width: 256px;
-	margin: 0 auto;
-	border-radius: 2px;
-	background-color: #fff;
-	padding: 16px;
-	text-align: center;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
-	-webkit-user-select: none;
-	-moz-user-select: none;
-}
-
-.dialog .title {
-	font-size: 18px;
-	line-height: 20px;
-	font-weight: 600;
-	padding: 0 16px;
-	color: #ccc;
-}
-
-.dialog .usernameInput {
-	font-size: 22px;
-	line-height: 24px;
-	font-weight: 800;
-	margin: 8px 0 0;
-	display: inline-block;
-	position: relative;
-	height: 24px;
-	min-width: 1px;
-	white-space: nowrap;
-}
-
-.dialog .emoji1,
-.dialog .emoji2,
-.dialog .emoji3 {
-	padding-right: 24px;
-	background-repeat: no-repeat;
-	background-size: 24px 24px;
-	background-position: right center;
-}
-
-.dialog .emoji1 {
-	background-image: url('../images/emoji-sushi.png');	
-}
-
-.dialog .emoji2 {
-	background-image: url('../images/emoji-cyclist.png');	
-}
-
-.dialog .emoji3 {
-	background-image: url('../images/emoji-fire.png');	
-}
-
-.dialog .cursor {
-	position: absolute;
-	top: -1px;
-	bottom: 1px;
-	right: -4px;
-	width: 3px;
-	background-color: #ff4f4f;
-	-webkit-animation-name: blink;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-	-moz-animation-name: blink;
-	-moz-animation-duration: 1s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-iteration-count: infinite;
-}
-
-.dialog .confirm {
-	height: 44px;
-	border-radius: 2px;
-	margin-top: 16px;
-	background-color: #ff4f4f;
-	color: white;
-	font-size: 14px;
-	font-weight: 800;
-	line-height: 44px;
-	text-align: center;
-}
-
 /* community */
 #community {
-	background-color: #34c9a4;
+	background-color: #D61338;
 }
 
 #screen2 .navBar {
@@ -683,36 +528,10 @@ p.description {
 	color: #fff;
 }
 
-#comments {
-	list-style-type: none;
-}
-
-#comments .comment {
-	margin-top: 24px;
-}
-
-.commentBody {
-	font-size: 14px;
-	line-height: 18px;
-	margin: 4px 16px;
-}
-
-.inlineLike {
-	font-size: 14px;
-	color: #ccc;
-	font-weight: bold;
-	margin: 4px 16px;
-	padding-left: 22px;
-	background-size: 16px 16px;
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-image: url('../images/emoji-tongue.png');
-}
-
 /* Invite Screen */
 
 #invite {
-	background-color: #662aea;
+	background-color: #34C9A4;
 }
 
 #invite .appStoreLinkContainer {
@@ -1043,7 +862,7 @@ and (min-width : 1260px),
 only screen and (min-width : 375px) and (max-width : 960px) {
 
 	h1 {
-		font-size: 44px;
+		font-size: 32px;
 		line-height: 48px;
 	}
 	
@@ -1055,8 +874,8 @@ only screen and (min-width : 375px) and (max-width : 960px) {
 	}
 	
 	p.description {
-		font-size: 30px;
-		line-height: 36px;
+		font-size: 16px;
+		line-height: 30px;
 	}
 	
 	.introContent {
